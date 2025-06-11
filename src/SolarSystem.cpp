@@ -223,5 +223,24 @@ std::vector<CelestialBody> getSolarSystem()
   );
   SolarSystem.push_back(Pluto);
 
+  CelestialBody Duck
+  (
+    "Duck",
+    "Duck.jpg",
+    1.89813     * pow(10, 27),
+    1.43128     * pow(10, 15),
+    1.326       * pow(10, 3),
+    2.592       * pow(10, 1),
+    6.9911      * pow(10, 4),
+    1.306       * pow(10, 1),
+    7.40595     * pow(10, 8),
+    8.16363     * pow(10, 8),
+    4.33259     * pow(10, 3),
+    9.9259,
+    9.5         * pow(10, 1),
+    true
+  );
+  SolarSystem.push_back(Duck);
+
   return SolarSystem;
 }
